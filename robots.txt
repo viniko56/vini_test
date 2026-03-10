@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://vinispydexx.w3spaces-preview.com/sitemap.xml
