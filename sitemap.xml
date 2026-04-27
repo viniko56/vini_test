@@ -3,44 +3,11 @@
 
   <!-- Home page -->
   <url>
-    <loc>https://vinispydexx.w3spaces-preview.com/index.html</loc>
+    <loc>https://viniko56.github.io/vini_test/</loc>
     <lastmod>2026-03-10</lastmod>
     <priority>1.0</priority>
   </url>
 
-  <!-- Flights page -->
-  <url>
-    <loc>https://vinispydexx.w3spaces-preview.com/flights.html</loc>
-    <lastmod>2026-03-10</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Hotels page -->
-  <url>
-    <loc>https://vinispydexx.w3spaces-preview.com/hotels.html</loc>
-    <lastmod>2026-03-10</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Cars page -->
-  <url>
-    <loc>https://vinispydexx.w3spaces-preview.com/cars.html</loc>
-    <lastmod>2026-03-10</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- About page -->
-  <url>
-    <loc>https://vinispydexx.w3spaces-preview.com/about.html</loc>
-    <lastmod>2026-03-10</lastmod>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Contact page -->
-  <url>
-    <loc>https://vinispydexx.w3spaces-preview.com/contact.html</loc>
-    <lastmod>2026-03-10</lastmod>
-    <priority>0.6</priority>
-  </url>
+  
 
 </urlset>

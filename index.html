@@ -1,63 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Modern Travel Template</title>
+  <!-- Basic SEO Meta Tags -->
+  <title>Travel the World with TravelCo | Flights, Hotels & Rentals</title>
+  <meta name="description"
+    content="Discover affordable flights, top-rated hotels, and worldwide car rentals with TravelCo. Plan your next adventure and travel the world with ease." />
+  <meta name="keywords"
+    content="Travel, Flights, Hotels, Car Rentals, Worldwide Travel, London Travel, Vacation Deals" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="TravelCo" />
+  <link rel="canonical" href="https://viniko56.github.io/vini_test/" />
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="Travel the World with TravelCo" />
+  <meta property="og:description"
+    content="Book flights, hotels, and car rentals worldwide. TravelCo makes your journey simple and affordable." />
+  <meta property="og:site_name" content="TravelCo" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.w3schools.com/w3images/london2.jpg" />
+  <meta property="og:url" content="https://viniko56.github.io/vini_test/" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Travel the World with TravelCo" />
+  <meta name="twitter:description"
+    content="Plan your next trip with TravelCo. Affordable flights, hotels, and rentals worldwide." />
+  <meta name="twitter:image" content="https://www.w3schools.com/w3images/london2.jpg" />
+
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <meta name="google-site-verification" content="7Cantb909hHfywsvEKJ89vOm76CM-Pkk6kw5NG1PaZM" />
 </head>
+
 <body>
 
-<!-- Navigation -->
-<div class="navbar">
-  <a href="#" class="logo"><i class="fa fa-map-marker-alt"></i> TravelCo</a>
-  <a href="#" class="search"><i class="fa fa-search"></i></a>
-</div>
-
-<!-- Hero -->
-<header class="hero">
-  <img src="https://www.w3schools.com/w3images/london2.jpg" alt="London">
-  <div class="hero-content">
-    <div class="tabs">
-      <button class="tablink" onclick="openLink(event, 'Flight')"><i class="fa fa-plane"></i> Flight</button>
-      <button class="tablink" onclick="openLink(event, 'Hotel')"><i class="fa fa-bed"></i> Hotel</button>
-      <button class="tablink" onclick="openLink(event, 'Car')"><i class="fa fa-car"></i> Rental</button>
-    </div>
-
-    <div id="Flight" class="tab-content">
-      <h3>Travel the world with us</h3>
-      <input type="text" placeholder="Departing from">
-      <input type="text" placeholder="Arriving at">
-      <button>Search Flights</button>
-    </div>
-
-    <div id="Hotel" class="tab-content">
-      <h3>Find the best hotels</h3>
-      <button>Search Hotels</button>
-    </div>
-
-    <div id="Car" class="tab-content">
-      <h3>Best car rental worldwide!</h3>
-      <input type="text" placeholder="Pick-up point">
-      <button>Search Cars</button>
-    </div>
+  <!-- Navigation -->
+  <div class="navbar">
+    <a href="#" class="logo"><i class="fa fa-map-marker-alt"></i> TravelCo</a>
+    <a href="#" class="search"><i class="fa fa-search"></i></a>
   </div>
-</header>
 
-<!-- Footer -->
-<footer>
-  <p>© 2026 TravelCo. All rights reserved.</p>
-  <div class="social">
-    <i class="fab fa-facebook"></i>
-    <i class="fab fa-instagram"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-linkedin"></i>
-  </div>
-</footer>
+  <!-- Hero -->
+  <header class="hero">
+    <img src="https://www.w3schools.com/w3images/london2.jpg" alt="London">
+    <div class="hero-content">
+      <div class="tabs">
+        <button class="tablink" onclick="openLink(event, 'Flight')"><i class="fa fa-plane"></i> Flight</button>
+        <button class="tablink" onclick="openLink(event, 'Hotel')"><i class="fa fa-bed"></i> Hotel</button>
+        <button class="tablink" onclick="openLink(event, 'Car')"><i class="fa fa-car"></i> Rental</button>
+      </div>
 
-<script src="index.js"></script>
+      <div id="Flight" class="tab-content">
+        <h3>Travel the world with us</h3>
+        <input type="text" placeholder="Departing from">
+        <input type="text" placeholder="Arriving at">
+        <button>Search Flights</button>
+      </div>
+
+      <div id="Hotel" class="tab-content">
+        <h3>Find the best hotels</h3>
+        <button>Search Hotels</button>
+      </div>
+
+      <div id="Car" class="tab-content">
+        <h3>Best car rental worldwide!</h3>
+        <input type="text" placeholder="Pick-up point">
+        <button>Search Cars</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 TravelCo. All rights reserved.</p>
+    <div class="social">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin"></i>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
 </body>
+
 </html>
