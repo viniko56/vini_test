@@ -2,4 +2,4 @@ User-agent: *
 Allow:/
 Disallow:
 
-Sitemap: https://vinispydexx.w3spaces-preview.com/sitemap.xml
+Sitemap: https://viniko56.github.io/vini_test/sitemap.xml
